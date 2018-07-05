@@ -25,3 +25,11 @@
   
  Thu Jul 05 2018 12:30:57 GMT-0500 (SA Pacific Standard Time)
 [debug] [2018-07-05T17:30:58.192Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pcdevelopers-4e0ce'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-07-05T17:31:05.937Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pcdevelopers-4e0ce/uploads/-LGfUpgcF0i3hMbI5rYk?fileCount=40&message=  
+  
+ Thu Jul 05 2018 12:31:05 GMT-0500 (SA Pacific Standard Time)
