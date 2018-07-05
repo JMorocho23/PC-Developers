@@ -1,0 +1,27 @@
+[debug] [2018-07-05T17:30:56.363Z] ----------------------------------------------------------------------
+[debug] [2018-07-05T17:30:56.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jc23a\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only hosting
+[debug] [2018-07-05T17:30:56.376Z] CLI Version:   3.18.2
+[debug] [2018-07-05T17:30:56.376Z] Platform:      win32
+[debug] [2018-07-05T17:30:56.376Z] Node Version:  v8.10.0
+[debug] [2018-07-05T17:30:56.376Z] Time:          Thu Jul 05 2018 12:30:56 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-07-05T17:30:56.376Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-05T17:30:56.420Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-05T17:30:56.433Z] > authorizing via signed-in user
+[debug] [2018-07-05T17:30:56.433Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-05T17:30:56.433Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/p9X1xLVahiK4jHozRP-QN-L38JCa1HjK0S0unFApUb5sB0iy5Q_CkJfN6hS0Z4dj',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 05 2018 12:30:56 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-07-05T17:30:56.908Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-05T17:30:56.924Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pcdevelopers-4e0ce  
+  
+ Thu Jul 05 2018 12:30:56 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-07-05T17:30:57.699Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-05T17:30:57.701Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pcdevelopers-4e0ce/tokens  
+  
+ Thu Jul 05 2018 12:30:57 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-07-05T17:30:58.192Z] <<< HTTP RESPONSE 200
