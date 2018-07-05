@@ -1,14 +1,93 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>PcDevWeb</title>
+  <title>PC Developers | Páginas Web, Marketing Digital, Aplicaciones Móviles, Diseño Empresarial. Cuenca-Ecuador.</title>
+   
+  <!--OG graph -->
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="_iCnESazY4tuEiGdf5mtkQs5FYvBPcUiFwkc-M9JjrE" />
+  <meta name="title" content="PC Developers | Páginas Web, Marketing Digital, Aplicaciones Móviles, Diseño Empresarial. Cuenca-Ecuador.">
+  <meta name="og:title" content="PC Developers | Páginas Web, Marketing Digital, Aplicaciones Móviles, Diseño Empresarial. Cuenca-Ecuador.">
+  <meta name="description" content="PC Developers es una empresa de desarrollo digital en Cuenca. Nuestra pasión es diseñar paginas web para nuestros clientes.">
+  <meta name="og:description" content="PC Developers es una empresa de desarrollo digital en Cuenca. Nuestra pasión es diseñar paginas web para nuestros clientes.">
+  <meta name="keywords" content="diseño web, paginas de diseño, pagina web gratis, crear pagina web gratis, creacion de paginas web, sitio web, paginas de internet, desarrollo web ecuador, como crear una pagina web, diseño web adaptativo, edicion de videos, diseño web ecuador, diseño grafico ecuador, marketing digital ecuador, paginas web confiables, marketing digital cuenca, desarrollo web bootstrap, paginas web con bootstrap, cuenca web, www.pc-developers.com/"> 
+  <meta name="og:url" content="https://pc-developers.com/">
+  <meta name="og:image" content="https://pc-developers.com/assets/logo1.png">
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="PC Developers es una empresa de desarrollo digital en Cuenca. Nuestra pasión es diseñar paginas web para nuestros clientes."/>
+  <meta name="twitter:description" content="PC Developers es una empresa de desarrollo digital en Cuenca. Nuestra pasión es diseñar paginas web para nuestros clientes."/>
+  <meta name="twitter:title" content="PC Developers: Desarrollo Digital | Cuenca-Ecuador." />
+  <meta name="twitter:url" content="https://pc-developers.com/" />
+  <meta name="twitter:image" content="https://pc-developers.com/assets/logo1.png"/>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./assets/creativo2.ico">
+
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+      <div class="loader">
+          <div class="image">
+            <i class="fa fa-code"></i>
+          </div>
+          <span></span>
+        </div>
+  </app-root>
 </body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  var counter = 0;
+
+  // Start the changing images
+  setInterval(function() {
+    if(counter == 9) { 
+      counter = 0; 
+    }
+
+    changeImage(counter);
+    counter++;
+  }, 3000);
+
+  // Set the percentage off
+  loading();
+});
+
+function changeImage(counter) {
+  var images = [
+    '<i class="fa fa-fighter-jet"></i>',
+    '<i class="fa fa-html5"></i>',
+    '<i class="fa fa-css3"></i>',
+    '<i class="fa fa-angular"></i>',
+    '<i class="fa fa-desktop"></i>',
+    '<i class="fa fa-database"></i>',
+    '<i class="fa fa-fire"></i>',
+    '<i class="fa fa-pen"></i>',
+    '<i class="fa fa-code"></i>'
+  ];
+
+  $(".loader .image").html(""+ images[counter] +"");
+}
+
+function loading(){
+  var num = 0;
+
+  for(i=0; i<=100; i++) {
+    setTimeout(function() { 
+      $('.loader span').html(num+'%');
+
+      if(num == 100) {
+        loading();
+      }
+      num++;
+    },i*120);
+  };
+
+}
+</script>
+
 </html>

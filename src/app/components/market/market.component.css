@@ -1,0 +1,46 @@
+.market-head{
+    color: #ff9933;
+    font-weight: bold;
+    font-size: 3.5rem;
+    -webkit-letter-spacing: 1px;
+    -moz-letter-spacing: 1px;
+    -ms-letter-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    text-align: center; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.market-text{
+    color: #999999;
+    /* opacity: 0.8; */
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-bottom: 3rem;
+}
+
+.market-text-2{
+    color: #3D81FB;
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.panda-img{
+    height: 40rem;
+    width: 98%;
+    transform: translateY(-40%);
+}
+.fancy-height{
+    height: 24rem;
+    padding-left: 0px;
+}
+
+.fancy-bg{
+    background-color:#3D81FB;
+}
+

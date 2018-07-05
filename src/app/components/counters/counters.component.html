@@ -1,0 +1,19 @@
+      <div class="features-blue container-fluid text-center">
+          <div class="row">
+          <div class="col-md-4 col-sm-6 item ">
+            <img  src="assets/blancos-12.png" class="count-icon">
+            <h3 class="name" >ANOCHECIDAS</h3>
+            <div class="wow roll-in-left description" counto [step]="15" [countTo]="164" [countFrom]="0" [duration]="15" (countoChange)="counto = $event" >{{ counto | number:'1.0-0'}}</div>
+          </div>
+          <div class="col-md-4 col-sm-6 item">
+            <img  src="assets/blancos-13.png" class="count-icon">
+            <h3 class="name">LÍNEAS DE CÓDIGO</h3>
+            <div class="wow roll-in-left description" counto [step]="15" [countTo]="30766" [countFrom]="0" [duration]="15" (countoChange)="counto1 = $event" >{{ counto1 | number:'1.0-0'}}</div>
+          </div>
+          <div class="col-md-4 col-sm-6 item">
+            <img src="assets/blancos-14.png" class="count-icon">
+            <h3 class="name" >PROYECTOS TERMINADOS</h3>
+            <span class="wow roll-in-left description" counto [step]="15" [countTo]="75" [countFrom]="0" [duration]="15" (countoChange)="counto2 = $event" >{{ counto2 | number:'1.0-0'}}</span>
+          </div>
+        </div>
+  </div>
