@@ -110,6 +110,18 @@
     }
   }
 
+  @media (max-width:576px) {
+    .bg-rect3 {
+        width: 15rem;
+    }
+  }
+
+  @media (max-width:576px) {
+    .bg-rect4 {
+        width: 15rem;
+    }
+  }
+
 
 .wobble-hor-bottom {
 	-webkit-animation: wobble-hor-bottom 10s infinite both;

@@ -52,3 +52,9 @@
       margin-bottom:2rem;
     }
   }
+
+  @media (max-width:576px) {
+    .bg-rect {
+        width: 15rem;
+    }
+  }
