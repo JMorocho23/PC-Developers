@@ -1,6 +1,10 @@
 # PcDevWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
+
+Preview:
+<img src="https://user-images.githubusercontent.com/26604996/42606309-7ef7edbc-8542-11e8-8099-ea6adb76626b.png" height="600">
+
 
 ## Development server
 
